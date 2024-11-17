@@ -31,7 +31,7 @@ barplot(totalNEI[, Emissions]
         
 dev.off()
 ```
-![plot1]("C:\Users\91781\OneDrive\Desktop\plot1 (1).png")
+![plot1](plot1.png)
 
 ## Question 2 [plot2.R](plot2.R)
 ---
@@ -51,7 +51,7 @@ barplot(totalNEI[, Emissions]
 
 dev.off()
 ```
-![plot2]("C:\Users\91781\OneDrive\Desktop\plot2 (1).png")
+![plot2](plot2.png)
 
 ## Question 3 [plot3.R](plot3.R)
 ---
@@ -70,7 +70,7 @@ ggplot(baltimoreNEI,aes(factor(year),Emissions,fill=type)) +
 
 dev.off()
 ```
-![plot3]("C:\Users\91781\OneDrive\Desktop\plot3 (1).png")
+![plot3](plot3.png)
 
 ## Question4 [plot4.R](plot4.R)
 ---
@@ -91,7 +91,7 @@ ggplot(combustionNEI,aes(x = factor(year),y = Emissions/10^5)) +
 
 dev.off()
 ```
-![plot4]("C:\Users\91781\OneDrive\Desktop\plot4 (1).png")
+![plot4](plot4png)
 
 
 ## Question5 [plot5.R](plot5.R)
@@ -114,7 +114,7 @@ ggplot(baltimoreVehiclesNEI,aes(factor(year),Emissions)) +
 
 dev.off()
 ```
-![plot5]("C:\Users\91781\OneDrive\Desktop\plot5.png")
+![plot5](plot5.png)
 
 ## Question6 [plot6.R](plot6.R)
 Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (𝚏𝚒𝚙𝚜 == "𝟶𝟼𝟶𝟹𝟽"). Which city has seen greater changes over time in motor vehicle emissions?
@@ -144,7 +144,7 @@ ggplot(bothNEI, aes(x=factor(year), y=Emissions, fill=city)) +
 
 dev.off()
 ```
-![plot6]("C:\Users\91781\OneDrive\Desktop\plot6.png")
+![plot6](plot6.png)
 
 
 
