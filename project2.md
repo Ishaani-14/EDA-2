@@ -51,7 +51,7 @@ barplot(totalNEI[, Emissions]
 
 dev.off()
 ```
-![plot2](plot2 (2).png)
+![plot2](plot2 (1).png)
 
 ## Question 3 [plot3.R](plot3.R)
 ---
@@ -70,7 +70,7 @@ ggplot(baltimoreNEI,aes(factor(year),Emissions,fill=type)) +
 
 dev.off()
 ```
-![plot3](plot3 (3).png)
+![plot3](plot3 (1).png)
 
 ## Question4 [plot4.R](plot4.R)
 ---
@@ -91,7 +91,7 @@ ggplot(combustionNEI,aes(x = factor(year),y = Emissions/10^5)) +
 
 dev.off()
 ```
-![plot4](plot4 (4).png)
+![plot4](plot4 (1).png)
 
 
 ## Question5 [plot5.R](plot5.R)
