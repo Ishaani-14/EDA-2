@@ -31,7 +31,7 @@ barplot(totalNEI[, Emissions]
         
 dev.off()
 ```
-![plot1](plot1 (1).png)
+![plot1](plot(1).png)
 
 ## Question 2 [plot2.R](plot2.R)
 ---
